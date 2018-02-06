@@ -1,0 +1,52 @@
+html *
+{
+   color: #eee;
+   font-family: "ProximaNovaRegular",Arial,sans-serif;
+   font-size: 18px;
+   font-weight: bold;
+}
+button{
+  text-decoration: none;
+  background: transparent;
+  outline: none;
+  border: 2px solid transparent;
+  transition: transform .3s;
+}
+button:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  backface-visibility: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+button:focus {
+  outline:none;
+}
+.navigationBar{
+  width: 100%;
+  position: absolute;
+  background-color: #313949;
+  padding-top: 10px;
+}
+.navigationBar ul{
+  display: inline-block;
+  vertical-align: middle;
+}
+.navigationBar ul#leftNav{
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.navigationBar ul#rightNav{
+  float: right;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.navigationBar li {
+    display: inline;
+}
+
+.header {
+  background-image:url('http://bit.ly/1KIFZoI');
+  background-size: cover;
+  height: 300px;
+}
